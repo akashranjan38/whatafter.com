@@ -44,7 +44,7 @@ body
 {
 	margin: 4%;
 	transition: 0.7s;
-	width: 17%;
+	width: 25%;
 	transform: rotate(-30deg);
 	filter: brightness(50%);
 }
