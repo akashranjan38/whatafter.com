@@ -1,53 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>What AFTER..!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>
+		❔❔What AFTER❓❓
+	</title>
 	<style type="text/css">
-		button
+		#links
 		{
-			transform: scale(2.3);
-			padding: 2px;
-			outline-style: none;
-			color: white;
-			text-shadow: 1px 1px 2px black;
-			width: 38%;
-			margin-top: 5%;
-			transition: .5s;
-			letter-spacing: 0px;
+			width: 95%;
+			margin: 1%;
+			font-size: 5pc;
 		}
-		button:hover
+		#thumb
 		{
+			width: 60%;
+			margin-top: 1%;
+			border: 15px ridge white;
+			border-radius: 25px;
+		}
+		.desc
+		{
+			border:20px double white;
+			margin-top: 2%;
+			width: 89%;
+			border-radius: 10px;
+		}
+		#title
+		{
+			font-variant: small-caps;
+			font-size: 6pc;
+			color: rgb(40,140,280);
+			text-shadow: 10px 0px 1px white;
+			letter-spacing: 10px;
+		}
+		#nav
+		{
+			margin: 2%;
+			width: 30%;
+			font-size: 2pc;
+			transition: .5s;
+			background:black;
+			border-radius: 5px;
+			color: white;
+			filter: opacity(80%);
+			border:none;
+			padding: 1%;
+			transition: .5s;
+		}
+		#nav:hover
+		{
+			background: rgb(280,140,40);
+			text-shadow: 3px 3px 3px black;
 			font-weight: bold;
-			letter-spacing: .5px;
 		}
 	</style>
 </head>
 <body>
-	<div class="main">
-		<div class="holder">
-			<div class="what">
-			<h1>What AFTER</h1>
-			</div>
-			<center>
-				<div class="menu">
-					<ul>
-						<li><a href="index.html">HOME</li></a>
-						<li><a href="photos.html">PHOTOS</li></a>
-						<li style="background:white; box-shadow: -4px 3px 5px black"><a href="videos.html" style=" color: black;">VIDEOS</li></a>
-					</ul>
-				</div>
-			</center>
-			<div class="contentbody">
-				<div class="list">
-					<center>
-						<a href="https://www.youtube.com/watch?v=FIqxXeu3864"><button>1 - Introducing What AFTER 🌐</button></a><br>
-						<a href="https://www.youtube.com/watch?v=C6Xwo2pqO1U"><button>2 - Let's begin the Epic Exploration 💫</button></a><br>
-						<a href="https://www.youtube.com/watch?v=kcuc058m900"><button>3 - What happen after removing MOON from EARTH ❔</button></a><br>
-					</center>
-				</div>
-			</div>
-		</div>
+<div>
+	<div>
+		<center>
+				<img src="aman.ico" id="logo">
+		</center>
 	</div>
+	<center><hr></center>
+	<br>
+	<div>
+		<ul class="ul">
+			<center>
+				<a href="index.html"><button class="li">HOME</button></a>
+				<a href="photos.html"><button class="li">ABOUT</button></a>
+				<a href="videos.html"><button class="li" style="background: rgb(280,140,40);text-shadow: 3px 3px 3px black;">VIDEOS</button></a>
+		</center>
+		</ul>
+	</div>
+	<div class="margin">
+		<center><hr></center>
+		<center>
+			<div class="desc">
+				<center><img src="thumb/3.png" id="thumb"></center>
+				<h1 id="title">What Would Happen After removing MOON??</h1>
+				<a href=""><button id="nav">READ ARTICLE</button></a>
+				<a href="https://www.youtube.com/watch?v=kcuc058m900"><button id="nav">PLAY VIDEO</button></a>
+			</div>
+			<div class="desc">
+				<center><img src="thumb/2.png" id="thumb"></center>
+				<h1 id="title">What Would Happen After If all things are possible in world??</h1>
+				<a href=""><button id="nav">READ ARTICLE</button></a>
+				<a href="https://www.youtube.com/watch?v=C6Xwo2pqO1U"><button id="nav">PLAY VIDEO</button></a>
+			</div>
+			<div class="desc">
+				<center><img src="thumb/1.png" id="thumb"></center>
+				<h1 id="title">Introducing What After</h1>
+				<a href="https://www.youtube.com/watch?v=FIqxXeu3864"><button id="nav">PLAY VIDEO</button></a>
+			</div>
+			
+			
+		</center>
+	</div>
+</div>
 </body>
 </html>

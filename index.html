@@ -1,80 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>What AFTER..!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>
+		❔❔What AFTER❓❓
+	</title>
 	<style type="text/css">
-		.center
+		#h2
 		{
-			position: absolute;
-			top: 60%;
-			left: 50%;
-			transform: translate(-50%,-60%);
+			position: relative;
+			font-size: 5.5pc;
 		}
-		p
+		.list
 		{
-			font-variant: small-caps;
-			font-size: 1.8em;
-			text-shadow: 1px 1px 2px black;
-			font-weight: bold;
+			width: 91%;
+			background: #999;
+			margin: 1%;
 			color: white;
-			letter-spacing: 4px;
-			background:#888;
-			border-radius: 20px;
-			width: 100%;
+			filter: opacity(80%);
+			text-shadow: 3px 3px 5px black;
+			border-radius: 10px 25px 10px 25px ;
+			font-variant: small-caps;
 		}
-		button
+		#button
 		{
-			height: 35px;
+			position: relative;
 			width: 50%;
-			font-size: 15px;
-			font-variant: small-caps;
-			border-radius: 5px;
+			height: 60px;
+			margin: 1.5%;
+			transition: .2s;
+			background: black;
+			color: white;
+			font-size: 2pc;
+			border:none;
+			border-radius: 10px;
 			transition: .5s;
-			border:0px dashed gray;
-			margin-bottom: 5px;
+			outline-style: none;
 		}
-		button:hover
+		#button:hover
 		{
-			background: rgb(10,140,220);
+			letter-spacing: 2px;
+			text-shadow: 1px 1px 0px black;
+			background: rgb(280,140,40);
 			color: white;
 			font-weight: bold;
-			text-shadow: 1px 1px 2px black;
 		}
+		
 	</style>
 </head>
 <body>
-	<div class="main">
-		<div class="holder">
-			<div class="what">
-			<h1>What AFTER</h1>
-			</div>
-			<center>
-				<div class="menu">
-					<ul>
-						<li style="background:white; box-shadow: -4px 3px 5px black"><a href="index.html" style=" color: black;">HOME</li></a>
-						<li><a href="photos.html">PHOTOS</li></a>
-						<li><a href="videos.html">VIDEOS</li></a>
-					</ul>
-				</div>
-			</center>
-			<div class="contentbody">
-				<div class="center">
-					<center>
-					<p id="p1">👀 Do watch my all videos 👀<br><a href="https://www.youtube.com/channel/UCD-Umgf5pWo8_KTwMuVa2xw/playlists"><button id="bt1">Go to Playlist</button></a></p>
-					<hr>
-					<p id="p2">❤ Do like ❤<br><a href="https://www.youtube.com/watch?v=kcuc058m900"><button id="bt2">Like my Videos</button></a></p>
-					<hr>
-					<p id="p3">🔔 Do SUBSCRIBE 🔔<br><a href="https://www.youtube.com/channel/UCD-Umgf5pWo8_KTwMuVa2xw"><button id="bt3">SUBSCRIBE</button></a></p>
-					<hr>
-					<p id="p4">📧 I love recivieng E-mails 📧<br><a href="mailto:akashranjan08038@gmail.com"><button id="bt4">Send me Mail</button></a></p>
-					<hr>
-					<p id="p5">THANKS for coming here...! <br><a href="thanks.html"><button id="bt5">You Deserve this</button></a></p>
-					<hr>
-					</center>
-				</div>
-			</div>
-		</div>
+<div>
+	<div>
+		<center>
+				<img src="aman.ico" id="logo">
+		</center>
 	</div>
+	<center><hr></center>
+	<br>
+	<div>
+		<ul class="ul">
+			<center>
+				<a href="index.html"><button class="li" style="background: rgb(280,140,40);text-shadow: 3px 3px 3px black;">HOME</button></a>
+				<a href="photos.html"><button class="li">ABOUT</button></a>
+				<a href="videos.html"><button class="li">VIDEOS</button></a>
+		</center>
+		</ul>
+	</div>
+	<div class="margin">
+		<center><hr></center>
+		<center>
+			<div class="list">
+				<h2 id="h2">THANKS for coming here...!</h2>
+				<a href="thanks/thanks.html"><button id="button">FOR YOU</button></a>	
+			</div>
+			<div class="list">
+				<h2 id="h2">👀 Do watch my all videos 👀</h2>
+				<a href="https://www.youtube.com/channel/UCD-Umgf5pWo8_KTwMuVa2xw/playlists"><button id="button">MY PLAYLIST</button></a>
+			</div>
+			<div class="list">
+				<h2 id="h2">📧 I love recivieng Mails 📧</h2>
+				<a href="mailto:akashranjan08038@gmail.com"><button id="button">SEND ME MAILS</button></a>
+			</div>
+			<div class="list">
+				<h2 id="h2">🔔 Do SUBSCRIBE 🔔</h2>
+				<a href="https://www.youtube.com/channel/UCD-Umgf5pWo8_KTwMuVa2xw"><button id="button">SUBSCRIBE MY CHANNEL</button></a>
+			</div>
+			<div class="list">
+				<h2 id="h2">❤ Do like ❤</h2>
+				<a href="https://www.youtube.com/watch?v=kcuc058m900"><button id="button">MY LATEST VIDEO</button></a>		
+			</div>
+			<div class="list">
+				<h2 id="h2">😉 My INSTA 😉</h2>
+				<a href="https://www.instagram.com/akash_ranjan_07/"><button id="button">Visit My INSTA</button></a>		
+			</div>
+			<div class="list">
+				<h2 id="h2">😉 My FB 😉</h2>
+				<a href="https://www.facebook.com/akash.ranjan.5811"><button id="button">Visit My FACEBOOK</button></a>		
+			</div>
+		</center>
+	</div>
+</div>
 </body>
 </html>
